@@ -3,15 +3,16 @@ package nl.novi.jp.methods.beginner;
 /**
  * Een ander woord voor een methode uitvoeren is aanroepen. Je kunt in Java dus een methode schrijven zonder deze uit
  * te voeren. Dat is in deze opdracht ook gebeurd.
- *
+ * <p>
  * De methode printFact() wordt al uitgevoerd. Zorg ervoor dat printAnotherFact() ook wordt uitgevoerd.
- *
+ * <p>
  * Je kunt in BeginnerOne kijken hoe twee methodes na elkaar worden aangeroepen. Wat zie je in IntelliJ veranderen aan
  * de kleur van printAnotherFact()?
  */
 public class BeginnerTwo {
     public static void main(String[] args) {
         printFact();
+        printAnotherFact();
     }
 
     public static void printFact() {
